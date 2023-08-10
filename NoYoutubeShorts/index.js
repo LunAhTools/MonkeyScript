@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         no youtube shorts
 // @namespace    https://github.com/LunAhEric
-// @version      0.1
+// @version      0.2
 // @description  土炮自動跳轉short成一般觀看影片
 // @author       LunAh
 // @match        https://www.youtube.com/shorts/*
