@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         no youtube short
+// @name         no youtube shorts
 // @namespace    https://github.com/LunAhEric
 // @version      0.1
 // @description  土炮自動跳轉short成一般觀看影片
 // @author       LunAh
 // @match        https://www.youtube.com/shorts/*
 // @icon         https://www.google.com/s2/favicons?domain=youtube.com/
-// @grant        Copyright LunAh Eric
+// @license      Copyright LunAh Eric
 // ==/UserScript==
 
 (function () {
