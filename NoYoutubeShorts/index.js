@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         no youtube shorts
 // @namespace    https://github.com/LunAhEric
-// @version      0.2
+// @version      0.3
 // @description  土炮自動跳轉short成一般觀看影片
 // @author       LunAh
 // @match        https://www.youtube.com/shorts/*
@@ -12,8 +12,8 @@
 (function () {
     'use strict';
     const herf = window.location.href;
-    const url = herf.split('https://www.youtube.com/shorts/');
-    if(herf.match('shorts')){
+    if (herf.match('shorts')) {
+        const url = herf.split('https://www.youtube.com/shorts/');
         const doman = 'https://www.youtube.com/watch?v=';
         window.location = doman + url[1];
     }
